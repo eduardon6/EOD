@@ -1,0 +1,24 @@
+http://www.beta.inegi.org.mx/programas/eod/2017/ -> Microdatos -> Base de datos (DBF)
+
+EOD_1_TTRANSPORTE.R #####################################
+
+DESCRIPCION:
+Transforma bases en csv
+
+BASES INPUT:
+TVIAJE.DBF
+TTRANSPORTE.DBF
+
+BASES OUTPUT:
+transportes.csv
+
+EOD_2_transportes_graphs.R #####################################
+
+DESCRIPCION:
+Gráficas
+
+INPUT:
+transportes.csv
+
+OUTPUT:
+/GRAPHS/...
